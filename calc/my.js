@@ -4,6 +4,7 @@ const calculator = {
   waitingForSecondOperand: false,
   operator: null,
 };
+console.log(calculator);
 
 function inputDigit(digit) {
   const { displayValue, waitingForSecondOperand } = calculator;
