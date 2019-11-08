@@ -1,7 +1,5 @@
 const calculator = {
-  displayValue: '0',
-  firstOperand: null,
-  operator: null,
+  displayValue: '0'
 };
 
 function updateDisplay() {
